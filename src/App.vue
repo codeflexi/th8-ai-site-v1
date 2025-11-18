@@ -9,9 +9,13 @@
         <!-- Logo -->
         <div class="flex items-center gap-2">
           <div
-            class="h-9 w-9 rounded-2xl bg-red-600 flex items-center justify-center text-xs font-semibold tracking-wider text-white shadow-sm"
+            class="h-10 w-10 rounded-2xl  flex items-center justify-center text-xs font-semibold tracking-wider text-white shadow-sm"
           >
-            TH8
+             <img
+                :src="th8Icon"
+                alt=""
+                class="h-10 w-10"
+              />
           </div>
           <div class="flex flex-col">
             <span
@@ -185,6 +189,7 @@
 <script setup>
 import { ref } from 'vue'
 import { RouterLink, RouterView, useRoute } from 'vue-router'
+import th8Icon from './assets/th8.png'
 
 const isOpen = ref(false)
 const route = useRoute()

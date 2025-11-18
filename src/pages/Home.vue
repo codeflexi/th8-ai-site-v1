@@ -445,4 +445,5 @@ import logisticsIcon from '../assets/icon-logistics-outline.png'
 import fnbIcon from '../assets/icon-fnb-outline.png'
 import manufacturingIcon from '../assets/icon-manufacturing-outline.png'
 import caseStudyIcon from '../assets/icon-case-study-outline.png'
+
 </script>
